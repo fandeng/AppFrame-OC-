@@ -28,8 +28,8 @@
     self.firstTableView.tag = 1001;
     [self.tableView setTableFooterView:[[UIView alloc] initWithFrame:CGRectZero]];
     [self.firstTableView setTableFooterView:[[UIView alloc] initWithFrame:CGRectZero]];
-    self.listArray = @[@"内科", @"外科", @"骨伤科", @"耳鼻咽喉科", @"中医科", @"眼科", @"儿科"];
-    self.nextArray = @[@"呼吸内科", @"心血管内科", @"神经内科", @"消化内科", @"内分泌与代谢科", @"风湿免疫科", @"感染科"];
+    self.listArray = @[@"测试", @"是是是", @"sddss", @"swww", @"dsdsds", @"dssds", @"ddss"];
+    self.nextArray = @[@"222", @"wewe", @"神订单", @"sfsd", @"都是大神多", @"动手术的地方", @"多岁的"];
     [self.tableView registerNib:[UINib nibWithNibName:@"DepartmentTableCell" bundle:nil] forCellReuseIdentifier:@"departmentCell_id"];
     [self.firstTableView registerNib:[UINib nibWithNibName:@"DepartmentTableCell" bundle:nil] forCellReuseIdentifier:@"departmentCell_id"];
 }
@@ -73,7 +73,7 @@
             oldCell.bgView.backgroundColor = [UIColor whiteColor];
             self .lastPath = indexPath;
         }
-        self.nextArray = indexPath.row % 2 == 0 ? @[@"呼吸内科", @"心血管内科", @"神经内科", @"消化内科", @"内分泌与代谢科", @"风湿免疫科", @"感染科"] : @[@"呼吸内科", @"心血管内科", @"神经内科", @"消化内科", @"感染科"];
+        self.nextArray = indexPath.row % 2 == 0 ? @[@"测试1", @"测试3", @"测试2", @"测试4", @"测试科9", @"测试科6", @"测试7"] : @[@"测试43", @"测试122", @"测试1122", @"测试3333", @"测试33444"];
         [self.firstTableView reloadData];
     } else {
         NSString * departmengString = self.nextArray[indexPath.row];

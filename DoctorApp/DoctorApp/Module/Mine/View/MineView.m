@@ -36,7 +36,7 @@
 - (instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
-        self.listArray = @[@[@"个人主页",@"实名认证"],@[@"我的账户",@"我的论坛",@"我的消息",@"我的评价"],@[@"客服中心",@"设置门诊时间"],@[@"绑定支付宝",@"绑定微信"]];
+        self.listArray = @[@[@"个人主页",@"实名认证"],@[@"我的账户",@"我的论坛",@"我的消息",@"我的评价"],@[@"客服中心",@"设置时间"],@[@"绑定支付宝",@"绑定微信"]];
         self.contentArray = @[@[@"",@"已认证"],@[@"",@"",@"",@""],@[@"",@""],@[@"未绑定",@"未绑定"]];
         [self addSubview:self.tableView];
     }

@@ -49,13 +49,13 @@
                                     @"userLogo":@"http://pic.qiantucdn.com/58pic/27/75/48/08y58PICeAs_1024.jpg!/fw/780/watermark/url/L3dhdGVybWFyay12MS40LnBuZw==/align/center",
                                     @"nickname":@"赵小毛",
                                     @"createTime":@"2018-03-06 13:30:30",
-                                    @"content":@"如果你无法简洁的表达你的想法，那只说明你还不够了解它。"
+                                    @"content":@"大声道撒奥多 "
                                     },
                                 @{
                                     @"userLogo":@"http://pic.qiantucdn.com/58pic/18/19/68/49258PICIKQ_1024.jpg!/fw/780/watermark/url/L3dhdGVybWFyay12MS40LnBuZw==/align/center",
                                     @"nickname":@"白愁飞",
                                     @"createTime":@"2018-03-03 16:30:30",
-                                    @"content":@"如果你无法简洁的表达你的想法，如果你无法简洁的表达你的想法，如果你无法简洁的表达你的想法"
+                                    @"content":@"阿萨斯啊啊房地产彩信相册新圩村"
                                     }]];
     
     [self.tableView setTableFooterView:[[UIView alloc] initWithFrame:CGRectZero]];

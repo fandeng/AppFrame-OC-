@@ -28,8 +28,8 @@
     [super viewDidLoad];
     self.title = @"个人资料";
     [self createBackButton];
-    self.listArray = @[@"头像",@"姓名",@"性别",@"科室",@"职称",@"专长",@"执业医院",@"详细地址"];
-    self.contentArray = @[@"https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3835665625,849187119&fm=27&gp=0.jpg",@"陈医生",@"男",@"儿科",@"副主任医师",@"儿科急救和儿科疑难杂症",@"中山大学附属第三医院",@"中山大学教师附属楼"];
+    self.listArray = @[@"头像",@"姓名",@"性别",@"csdds",@"职称",@"专长",@"所说的双方都",@"详细地址"];
+    self.contentArray = @[@"https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3835665625,849187119&fm=27&gp=0.jpg",@"山东师范大学",@"男",@"的士速递",@"副主任",@"硕大的所啊",@"安安定定",@"撒奥多所大所"];
     [self.tableView registerNib:[UINib nibWithNibName:@"MineInfoTableCell" bundle:nil] forCellReuseIdentifier:@"mineInfoCell_id"];
     [self.tableView setTableFooterView:[[UIView alloc] initWithFrame:CGRectZero]];
 }

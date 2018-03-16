@@ -40,7 +40,7 @@
     [self.userLogoImgView sd_setImageWithURL:[NSURL URLWithString:@"https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3835665625,849187119&fm=27&gp=0.jpg"] placeholderImage:[UIImage imageNamed:@"logo"]];
     [self.codeImgView sd_setImageWithURL:[NSURL URLWithString:@"https://qr.api.cli.im/qr?data=%25E6%2592%2592%25E5%25A5%25A5%25E6%2592%2592%25E6%2589%2580&level=H&transparent=false&bgcolor=%23ffffff&forecolor=%23000000&blockpixel=12&marginblock=1&logourl=&size=280&kid=cliim&key=fad4d24930bcbad89dc40df6f17d3577"] placeholderImage:[UIImage imageNamed:@"placeholderImage"]];
     self.nameLabel.text = @"陈医生";
-    self.titleLabel.attributedText = [CommonMethod getAttributedStringWithLineSpace:@"眼科  |  副主任医师 \n中山大学附属第三医院" space:5];
+    self.titleLabel.attributedText = [CommonMethod getAttributedStringWithLineSpace:@"双方都  |  副主任 \n是带饭佛挡杀佛" space:5];
 }
 
 - (void)labelWithLabel:(UILabel *)label font:(UIFont *)font color:(UIColor *)color {

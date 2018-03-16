@@ -27,7 +27,7 @@
                            @"nickname":@"楚宇轩",
                            @"createTime":@"2018-03-06 16:30:30",
                            @"num":@"12",
-                           @"title":@"乙型流感的治疗方法",
+                           @"title":@"似懂非懂防辐射的",
                            @"content":@"不知道，怎么办"
                         },
                        @{
@@ -35,24 +35,24 @@
                            @"nickname":@"张依依",
                            @"createTime":@"2018-03-06 16:30:30",
                            @"num":@"12",
-                           @"title":@"拉肚子怎么办？",
-                           @"content":@"我经常拉肚子，吃什么拉什么，平时只敢喝粥，请问各位大神和医生，这是什么情况？"
+                           @"title":@"方式对双方都？",
+                           @"content":@"盛世嫡妃所发生的所说的水电费是否大是大非  发送到对方水电费等方式搜索发"
                         },
                        @{
                            @"userLogo":@"http://pic.qiantucdn.com/58pic/27/75/48/08y58PICeAs_1024.jpg!/fw/780/watermark/url/L3dhdGVybWFyay12MS40LnBuZw==/align/center",
                            @"nickname":@"叶潇",
                            @"createTime":@"2018-03-06 13:30:30",
                            @"num":@"16",
-                           @"title":@"咳嗽不止怎么办",
-                           @"content":@"最近不知道怎么回事,没感冒就一直咳嗽,而且咳嗽的厉害点会出现恶心干呕的现象,特别是晚上的时候,比较严重,咳嗽多了会偶尔感觉到肺部肿胀或者是疼痛的"
+                           @"title":@"敖德萨多",
+                           @"content":@"盛世嫡妃所发生的所说的水电费是否大是大非  发送到对方水电费等方式搜索发盛世嫡妃所发生的所说的水电费是否大是大非  发送到对方水电费等方式搜索发"
                         },
                        @{
                            @"userLogo":@"http://pic.qiantucdn.com/58pic/18/19/68/49258PICIKQ_1024.jpg!/fw/780/watermark/url/L3dhdGVybWFyay12MS40LnBuZw==/align/center",
                            @"nickname":@"花月舞",
                            @"createTime":@"2018-03-03 16:30:30",
                            @"num":@"10",
-                           @"title":@"头痛怎么办",
-                           @"content":@"头痛health 经常头痛是怎么回事 在我们周围经常有人喊头痛 ,并为经常发作而苦恼 ,甚至怀疑自己是不是患了颅内肿瘤。其实 ,临床医生告诉我们 ,头痛越是经常发作"
+                           @"title":@"答案是啊",
+                           @"content":@"盛世嫡妃所发生的所说的水电费是否大是大非  发送到对方水电费等方式搜索发盛世嫡妃所发生的所说的水电费是否大是大非  发送到对方水电费等方式搜索发盛世嫡妃所发生的所说的水电费是否大是大非  发送到对方水电费等方式搜索发盛世嫡妃所发生的所说的水电费是否大是大非  发送到对方水电费等方式搜索发"
                         }];
     [self.tableView setTableFooterView:[[UIView alloc] initWithFrame:CGRectZero]];
     [self.tableView registerNib:[UINib nibWithNibName:@"ForumTableViewCell" bundle:nil] forCellReuseIdentifier:@"forumCell_id"];
