@@ -1,0 +1,53 @@
+//
+//  PrefixHeader.pch
+//  DoctorApp
+//
+//  Created by 樊登 on 2018/2/28.
+//  Copyright © 2018年 樊登. All rights reserved.
+//
+
+#ifdef __OBJC__
+
+#import "UIColor+HEX.h"
+
+#import "UIView+Frame.h"
+
+#import "CommonConfig.h"
+
+#import "CommonMethod.h"
+
+#import "AppDelegate.h"
+
+#import "AppDelegate+ResetRootViewController.h"
+
+#import "MBProgressHUD.h"
+
+#import <SDWebImage/UIImageView+WebCache.h>
+
+#import <SDWebImage/UIButton+WebCache.h>
+
+#import "SDCycleScrollView.h"
+
+#import "MASConstraintMaker.h"
+
+#import "View+MASAdditions.h"
+
+#import "MJRefresh.h"
+
+#import "YTKNetworkAgent.h"
+
+#import "UIImageView+CornerRadius.h"
+
+#import "UIViewController+XHPhoto.h"
+
+#import "CustomAlertView.h"
+
+#endif /* PrefixHeader_pch */
+
+//控制日志的输出
+#ifdef DEBUG
+#define DoctorLog(fmt, ...)              NSLog((@"[%s:%d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+#define DoctorLog(...)
+#endif
+
